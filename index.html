@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pereira Performance Therapy — Performance physiotherapy & rehab</title>
+  <meta name="description" content="Performance physiotherapy, sports rehab, and injury prevention. Book sessions, get evidence-based care.">
+  <meta name="theme-color" content="#0a6cff">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Pereira Performance Therapy">
+  <meta property="og:description" content="Performance physiotherapy, sports rehab, and injury prevention.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://source.unsplash.com/featured/?physiotherapy">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://pereiraperformancetherapy.github.io/">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- JSON-LD structured data (LocalBusiness) — edit details below -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "Pereira Performance Therapy",
+    "image": "https://source.unsplash.com/featured/?physiotherapy",
+    "telephone": "+1-555-555-5555",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Main St",
+      "addressLocality": "City",
+      "addressRegion": "State",
+      "postalCode": "12345",
+      "addressCountry": "US"
+    },
+    "url": "https://pereiraperformancetherapy.github.io",
+    "priceRange": "$$",
+    "geo": { "@type": "GeoCoordinates", "latitude": "0.000", "longitude": "0.000" }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="Pereira Performance Therapy home">
+        <img src="logo-placeholder.png" alt="Pereira Performance Therapy logo" class="logo" />
+        <span class="sr-only">Pereira Performance Therapy</span>
+      </a>
+
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
+        <span class="hamburger" aria-hidden="true"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" role="navigation" aria-label="Primary">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section id="hero" class="hero" aria-labelledby="hero-heading">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1 id="hero-heading">Recover faster. Perform better.</h1>
+          <p class="lead">Sports physiotherapy and performance-focused rehabilitation to get you back to what you love — stronger and more resilient.</p>
+          <p>
+            <a class="btn primary" href="#contact">Book a session</a>
+            <a class="btn outline" href="#services">Our services</a>
+          </p>
+        </div>
+        <div class="hero-image" aria-hidden="true">
+          <img src="https://source.unsplash.com/800x600/?physiotherapy,exercise" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section" aria-labelledby="services-heading">
+      <div class="container">
+        <h2 id="services-heading">Services</h2>
+        <p class="section-sub">Evidence-based care for athletes and active people.</p>
+        <div class="cards">
+          <article class="card" aria-labelledby="s1">
+            <h3 id="s1">Sports Rehabilitation</h3>
+            <p>Individualized rehab plans to return you to sport with confidence.</p>
+          </article>
+          <article class="card" aria-labelledby="s2">
+            <h3 id="s2">Injury Prevention</h3>
+            <p>Movement screening and strength programs to reduce re-injury risk.</p>
+          </article>
+          <article class="card" aria-labelledby="s3">
+            <h3 id="s3">Performance Training</h3>
+            <p>Functional training to improve power, speed and endurance.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section bg-light" aria-labelledby="about-heading">
+      <div class="container">
+        <h2 id="about-heading">About</h2>
+        <p>Pereira Performance Therapy combines clinical expertise with performance coaching to help athletes of all levels recover and perform at their best. Lead practitioner: Dr. Jane Pereira (MSc Physiotherapy).</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+      <div class="container contact-grid">
+        <div>
+          <h2 id="contact-heading">Contact & Booking</h2>
+          <p>Prefer to book online or send a message — we’ll get back within 24 hours.</p>
+          <ul class="contact-list">
+            <li><strong>Phone:</strong> +1-555-555-5555</li>
+            <li><strong>Email:</strong> <a href="mailto:hello@example.com">hello@example.com</a></li>
+            <li><strong>Location:</strong> 123 Main St, City</li>
+          </ul>
+        </div>
+
+        <form id="contact-form" class="contact-form" method="POST" action="https://formspree.io/f/YOUR_ID_HERE" aria-labelledby="contact-heading">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required aria-required="true" />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required aria-required="true" />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required aria-required="true"></textarea>
+
+          <!-- Honeypot for spam -->
+          <label style="display:none;">Leave this field empty
+            <input name="_gotcha" type="text" tabindex="-1" autocomplete="off" />
+          </label>
+
+          <!-- Redirect after submit (optional) -->
+          <input type="hidden" name="_redirect" value="https://pereiraperformancetherapy.github.io/thanks.html">
+
+          <button class="btn primary" type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Pereira Performance Therapy — All rights reserved.</p>
+      <p class="small">Built with accessibility and performance in mind. Replace placeholders with your branding.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js" defer></script>
+</body>
+</html>
